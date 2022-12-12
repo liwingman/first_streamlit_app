@@ -98,7 +98,7 @@ if streamlit.button('Add a Fruit to the List'):
 
 #my_cur.execute("insert into fruit_load_list values ('from streamlist')")
 
-streamlit.header('View Our Fruit List - Add Your Favorites!)
+streamlit.header('View Our Fruit List - Add Your Favorites!')
 # add a button to load the fruit
 if streamlit.button('Get Fruit List'):
 	my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
